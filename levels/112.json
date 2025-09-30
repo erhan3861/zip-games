@@ -1,0 +1,27 @@
+{
+  "level": 112,
+  "grid": [
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0]
+  ],
+  "walls": [
+    {"type": "V", "row": 2, "col": 1}
+  ],
+  "waypoints": [
+    {"row": 1, "col": 3}
+  ],
+  "numbers": [
+    {"value": 1, "row": 0, "col": 4},
+    {"value": 2, "row": 0, "col": 2},
+    {"value": 3, "row": 2, "col": 2},
+    {"value": 4, "row": 4, "col": 2},
+    {"value": 5, "row": 4, "col": 0},
+    {"value": 6, "row": 2, "col": 0}
+  ],
+  "successCode": "LVL105-TALENT-MNB789"
+}
+
+

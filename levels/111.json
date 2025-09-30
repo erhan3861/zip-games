@@ -1,0 +1,26 @@
+{
+  "level": 111,
+  "grid": [
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0]
+  ],
+  "walls": [
+    {"type": "H", "row": 1, "col": 2}
+  ],
+  "waypoints": [
+  ],
+  "numbers": [
+    {"value": 1, "row": 0, "col": 0},
+    {"value": 2, "row": 2, "col": 0},
+    {"value": 3, "row": 4, "col": 0},
+    {"value": 4, "row": 4, "col": 2},
+    {"value": 5, "row": 2, "col": 2},
+    {"value": 6, "row": 0, "col": 4}
+  ],
+  "successCode": "LVL111-TALENT-NM4587"
+}
+
+

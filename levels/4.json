@@ -1,0 +1,22 @@
+{
+  "level": 4,
+  "grid": [
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0]
+  ],
+  "walls": [],
+  "waypoints": [],
+  "numbers": [
+    {"value": 1, "row": 0, "col": 0},
+    {"value": 2, "row": 2, "col": 0},
+    {"value": 3, "row": 4, "col": 0},
+    {"value": 4, "row": 4, "col": 2},
+    {"value": 5, "row": 2, "col": 2},
+    {"value": 6, "row": 0, "col": 5}
+  ],
+  "successCode": "LVL5-TALENT-3903"
+}

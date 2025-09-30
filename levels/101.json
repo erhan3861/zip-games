@@ -1,0 +1,32 @@
+{
+  "level": 101,
+  "grid": [
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 1, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0]
+  ],
+  "walls": [
+
+  ],
+  "waypoints": [
+    {"row": 2, "col": 2}
+  ],
+"numbers": [
+  {"value": 1, "row": 0, "col": 0},
+  {"value": 2, "row": 1, "col": 0},
+  {"value": 3, "row": 3, "col": 0},
+  {"value": 4, "row": 5, "col": 0},
+  {"value": 5, "row": 6, "col": 2},
+  {"value": 6, "row": 4, "col": 2},
+  {"value": 7, "row": 2, "col": 4},
+  {"value": 8, "row": 4, "col": 4},
+  {"value": 9, "row": 6, "col": 4},
+  {"value": 10, "row": 3, "col": 6},
+  {"value": 11, "row": 0, "col": 6}
+],
+"successCode": "LVL101-TALENT-56905498"
+}

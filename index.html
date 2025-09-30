@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zip-It! Puzzle Oyunu</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="content">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Zip-IT Logo">
+                <h1>Zip-It! Puzzle Oyunu</h1>
+            </div>
+            <div class="game-info">
+                <div id="levelDisplay" class="text">Seviye: 1</div>
+                <div id="timer" class="text">Süre: 00:00</div>
+                
+                <button id="soundToggle" class="info-button" title="Mute/Unmute Sounds">Ses: Açık</button>
+            </div>
+        </div>
+
+        <div class="puzzle-area">
+            <div id="puzzleGrid" class="puzzle-grid"></div>
+            <svg id="pathSvg" class="path-svg">
+                <defs>
+                    <linearGradient id="pathGradient" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+                        <stop id="gradStop1" offset="0%" stop-color="#ff8a00" />
+                        <stop id="gradStop2" offset="100%" stop-color="#873cff" />
+                    </linearGradient>
+                </defs>
+            </svg>
+            <svg id="numbersSvg" class="numbers-svg"></svg>
+            <div id="pauseOverlay" class="pause-overlay">
+                <span>Oyun Duraklatıldı.<br />Tıkla <b>Devam Et butonuna</b> devam etmek için.</span>
+            </div>
+        </div>
+
+        <button id="nextLevelButton" class="next-level-button" style="display: none;">Sonraki Seviye</button>
+
+        <div class="buttons">
+            <button id="undoButton">Geri Al</button>
+            <button id="clearPathButton">Temizle</button>
+            <button id="resetLevelButton">Seviyeyi Sıfırla</button>
+            <button id="restartGameButton">Yeniden Başlat</button>
+        </div>
+    </div>
+
+    <div id="messageContainer"></div>
+
+    <div id="restartModalOverlay" class="modal-overlay">
+        <div id="restartModal" class="modal">
+            <h2>Yeniden Başlat</h2>
+            <p class="modal-message">
+                Uyarı! Mevcut oyun ilerlemeniz (seviye ve puanlar) sıfırlanacak. Yeniden başlatmak istediğinizden emin misiniz?
+            </p>
+            <div class="modal-buttons">
+                <button id="modalConfirmRestart" class="modal-button modal-button-confirm">Tamam</button>
+                <button id="modalCancelRestart" class="modal-button modal-button-cancel">İptal</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="soundTick" src="assets/tick.mp3" preload="auto"></audio>
+    <audio id="soundError" src="assets/error.mp3" preload="auto"></audio>
+    <audio id="soundWin" src="assets/win.mp3" preload="auto"></audio>
+    <audio id="soundLose" src="assets/lose.mp3" preload="auto"></audio>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+
+</html>

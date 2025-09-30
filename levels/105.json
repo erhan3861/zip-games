@@ -1,0 +1,38 @@
+{
+  "level": 105,
+  "grid": [
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0]
+  ],
+  "walls": [
+    {"type": "V", "row": 0, "col": 1},
+    {"type": "H", "row": 1, "col": 1},
+    {"type": "H", "row": 2, "col": 0},
+    {"type": "H", "row": 4, "col": 0},
+    {"type": "V", "row": 6, "col": 2},
+    {"type": "V", "row": 6, "col": 4}
+  ],
+  "waypoints": [
+    {"row": 2, "col": 1},
+    {"row": 2, "col": 6}
+  ],
+  "numbers": [
+    {"value": 1, "row": 0, "col": 6},
+    {"value": 2, "row": 4, "col": 6},
+    {"value": 3, "row": 5, "col": 5},
+    {"value": 4, "row": 1, "col": 5},
+    {"value": 5, "row": 2, "col": 4},
+    {"value": 6, "row": 6, "col": 4},
+    {"value": 7, "row": 3, "col": 3},
+    {"value": 8, "row": 0, "col": 2},
+    {"value": 9, "row": 4, "col": 2},
+    {"value": 10, "row": 6, "col": 0},
+    {"value": 11, "row": 1, "col": 1}
+  ],
+  "successCode": "LVL105-TALENT-ER4587"
+}

@@ -1,0 +1,22 @@
+{
+  "level": 1,
+  "grid": [
+    [0, 0, 0, 0],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0]
+  ],
+  "walls": [
+  ],
+  "waypoints": [
+  ],
+  "numbers": [
+    {"value": 1, "row": 0, "col": 0},
+    {"value": 2, "row": 3, "col": 1},
+    {"value": 3, "row": 0, "col": 2},
+    {"value": 4, "row": 2, "col": 2},
+    {"value": 5, "row": 2, "col": 3}
+  ],
+  "successCode": "TALENT-1987ASD"
+}
+

@@ -1,0 +1,38 @@
+{
+  "level": 107,
+  "grid": [
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0]
+  ],
+  "walls": [
+    {"type": "V", "row": 0, "col": 5},
+    {"type": "H", "row": 2, "col": 5},
+    {"type": "H", "row": 3, "col": 3},
+    {"type": "H", "row": 4, "col": 2},
+    {"type": "H", "row": 4, "col": 5},
+    {"type": "H", "row": 5, "col": 3}
+  ],
+  "waypoints": [
+    {"row": 3, "col": 5},
+    {"row": 4, "col": 5}
+  ],
+  "numbers": [
+    {"value": 1, "row": 5, "col": 3},
+    {"value": 2, "row": 5, "col": 2},
+    {"value": 3, "row": 3, "col": 2},
+    {"value": 4, "row": 2, "col": 1},
+    {"value": 5, "row": 6, "col": 1},
+    {"value": 6, "row": 5, "col": 0},
+    {"value": 7, "row": 0, "col": 0},
+    {"value": 8, "row": 0, "col": 4},
+    {"value": 9, "row": 5, "col": 4},
+    {"value": 10, "row": 6, "col": 6},
+    {"value": 11, "row": 2, "col": 5}
+  ],
+  "successCode": "LVL107-TALENT-KL67890"
+}
