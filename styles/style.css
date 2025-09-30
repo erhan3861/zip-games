@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #fff;
-    padding: 35px 0;
+    padding: 15px 0;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -42,11 +42,11 @@ body {
 .logo {
     display: flex;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 3px;
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    gap: 8px;
+    gap: 3px;
 }
 
 .logo img {
@@ -56,7 +56,7 @@ body {
 
 h1 {
     margin-left: 0;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #333;
     text-align: center;
 }
@@ -71,10 +71,10 @@ h1 {
     margin: 10px 0 15px 0;
     font-size: 1.0em;
     font-weight: bold;
-    gap: 8px 15px;
+    gap: 8px 5px;
     border-top: solid 1px #cccccc;
     border-bottom: solid 1px #cccccc;
-    padding: 10px 15px;
+    padding: 10px 5px;
 }
 
 .game-info>div {
@@ -94,7 +94,7 @@ h1 {
     height: min-content;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 10px;
     overflow: hidden;
     border: 2px solid #333;
